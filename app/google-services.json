@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "378724560847",
+    "project_id": "dashmed-d85ae",
+    "storage_bucket": "dashmed-d85ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378724560847:android:7904705795d98cd9c66cba",
+        "android_client_info": {
+          "package_name": "com.dashmed.dashmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378724560847-31k3sl5e17b686jg1bui6rnnm8ab4ino.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhmwbrzceFVl8QFvsgOer6Domu--StuUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378724560847-31k3sl5e17b686jg1bui6rnnm8ab4ino.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

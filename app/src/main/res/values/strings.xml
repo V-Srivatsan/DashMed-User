@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DashMed</string>
+
+    <string name="cart_activity_title"><b>Package</b>: <i>%1$s</i></string>
+
+    <string name="signup_link"><u>Don\'t have an account? Let\'s setup one!</u></string>
+    <string name="login_link"><u>Already have an account? Log in!</u></string>
+
+    <string name="settings_prompt">In order to continue, you need to confirm your password. The changes done here cannot be undone.</string>
+    <string name="package_prompt">A package is like a mini-cart, and can contain a list of your medicines.</string>
+    <string name="delete_package_prompt">Deleting this package will result in all the items in this package being deleted. This action is not reversible. Are you sure you want to delete this package?</string>
+    <string name="delete_item_prompt">This action is irreversible. Are you sure you want to remove this item from this package?</string>
+
+    <string name="empty_cart">No packages were found in your Cart! Add one now!</string>
+    <string name="empty_package">No items were found in this package! Add one now!</string>
+    <string name="empty_orders">No recent orders have been made!</string>
+
+    <string name="search_message">Search for products in order to get results!</string>
+    <string name="search_none">We could not find any products! Try searching using different words!</string>
+
+    <string name="network_error">Something went wrong! Please check your network connectivity and try again!</string>
+
+    <string name="delete_account_prompt">Deleting your account will result in all the data related to your account being wiped out. This action is not reversible. Are you sure you want to delete your account?</string>
+
+</resources>
