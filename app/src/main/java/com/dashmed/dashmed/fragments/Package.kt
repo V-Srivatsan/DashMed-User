@@ -90,7 +90,7 @@ class Package : Fragment(), ItemsAdapter.OnItemClickListener, LocationListener {
         if (packageId != -1) {
             lifecycle.coroutineScope.launch {
                 packageItemDao.getItemsOfPackage(packageId).collect {
-                    if (it.count() == 0) {
+                    if (it.isEmpty()) {
                         binding.cartPackageEmpty.visibility = View.VISIBLE
                         binding.cartPackageItems.visibility = View.GONE
                         binding.cartPackageNetPrice.visibility = View.GONE
@@ -158,6 +158,7 @@ class Package : Fragment(), ItemsAdapter.OnItemClickListener, LocationListener {
                 else {
                     dialog.dismiss()
                     Utils.showSnackbar(coordinatorLayout, "Please ensure that you have provided permission to access your location!")
+                    askLocation()
                 }
             }
         }

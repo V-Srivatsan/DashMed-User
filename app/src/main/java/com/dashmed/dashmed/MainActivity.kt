@@ -20,10 +20,6 @@ import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
 
-    companion object {
-        var reloadFragment = false
-    }
-
     private lateinit var binding: ActivityMainBinding
     private var currFragment: Int = R.id.home
 
@@ -34,8 +30,10 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
         supportActionBar?.title = null
 
-        if (Utils.getUID(this) == null)
+        if (Utils.getUID(this) == null) {
             startActivity(Intent(this, LoginActivity::class.java))
+            this.finish()
+        }
 
         setContentView(binding.root)
 
@@ -44,18 +42,6 @@ class MainActivity : AppCompatActivity() {
             true
         }
         binding.bottomNav.setOnItemReselectedListener { false }
-    }
-
-    override fun onResume() {
-        if (Utils.getUID(this) == null) { this.finish() }
-
-        if (reloadFragment) {
-            if (binding.bottomNav.selectedItemId == R.id.home)
-                replaceFragment(R.id.home)
-            else
-                binding.bottomNav.selectedItemId = R.id.home
-        }
-        super.onResume()
     }
 
     override fun onBackPressed() {

@@ -86,7 +86,12 @@
         <entry key="..\:/Users/Vatsan/OneDrive/Desktop/DashMed/app/src/main/res/layout/password_dialog.xml" value="0.2793859649122807" />
         <entry key="..\:/Users/Vatsan/OneDrive/Desktop/DashMed/app/src/main/res/layout/profile_delete_dialog.xml" value="0.5" />
         <entry key="..\:/Users/Vatsan/OneDrive/Desktop/DashMed/app/src/main/res/layout/profile_dialog.xml" value="0.49765625" />
+        <entry key="app/src/main/res/layout/activity_order.xml" value="0.3697916666666667" />
+        <entry key="app/src/main/res/layout/cart_package.xml" value="0.3697916666666667" />
+        <entry key="app/src/main/res/layout/fragment_package.xml" value="0.3697916666666667" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_signup.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/package_dialog.xml" value="0.3697916666666667" />
       </map>
     </option>
   </component>

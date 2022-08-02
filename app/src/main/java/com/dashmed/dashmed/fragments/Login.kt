@@ -53,7 +53,6 @@ class Login : Fragment() {
                         binding.loginBtn.visibility = View.VISIBLE
                         binding.loginProgress.visibility = View.GONE
                     } else {
-                        MainActivity.reloadFragment = true
                         with (requireActivity().getSharedPreferences("UserPrefs", Context.MODE_PRIVATE).edit()) {
                             putString("UID", res.uid)
                             apply()
