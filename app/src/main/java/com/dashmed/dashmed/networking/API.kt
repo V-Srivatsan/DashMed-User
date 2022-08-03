@@ -33,7 +33,7 @@ interface APIService {
     @PUT("update/")
     suspend fun updateProfile(@Body data: UpdateReq): EmptyRes
 
-    @DELETE("delete/")
+    @HTTP(method = "DELETE", path = "delete/", hasBody = true)
     suspend fun deleteProfile(@Body data: DeleteReq): EmptyRes
 
 
